@@ -10,8 +10,11 @@
 
 #myVideo { 
   position: fixed;
-  width: 100%;
-  height: auto;
+/*   width: 100%;
+  height: auto; */
+  width: 100vw; /* Ширина 100% видимої області вікна */
+    height: 100vh; /* Висота 100% видимої області вікна */
+    object-fit: cover;
 }
 .countdown, 
 #end {
