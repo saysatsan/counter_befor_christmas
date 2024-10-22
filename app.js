@@ -17,11 +17,11 @@ document.addEventListener('DOMContentLoaded', function() {
       video.loop = true;
   }
 
-  // Запуск аудіо
-  // if (audio) {
-  //     audio.autoplay = true;
-  //     audio.muted = true; // Потрібно включити вимкнення звуку для Safari
-  // }
+  Запуск аудіо
+  if (audio) {
+      audio.autoplay = true;
+      audio.muted = true; // Потрібно включити вимкнення звуку для Safari
+  }
 });
  document.addEventListener('click', function() {
     audio.play();
