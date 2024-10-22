@@ -34,7 +34,7 @@
     align-items: center;
     text-align: center;
     color: rgb(243, 165, 47);
-    font-size: 36px;
+    font-size: calc(24px + 2vw);
     text-transform: uppercase;
     padding: 10px 15px;
     text-shadow: 3px 3px 5px rgba(27, 184, 13, 0.836);
@@ -51,7 +51,7 @@
   .timer span {
     margin: 0 1rem;
     color: rgb(243, 165, 47);
-    font-size: 41px;
+    font-size: calc(24px + 2vw);
     font-weight: 500;
     text-shadow: 3px 3px 5px rgba(27, 184, 13, 0.836);
   }
